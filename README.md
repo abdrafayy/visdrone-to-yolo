@@ -68,3 +68,14 @@ YOLO-formatted .txt files will be saved under:
 VisDrone2019-MOT-train/yolo_labels/
 
 Each .txt corresponds to one image frame.
+
+🔍 Visualize Annotations
+
+To draw bounding boxes and verify correctness:
+```
+python visualize_yolo_annotations.py
+```
+Annotated sample images will be saved in:
+
+VisDrone2019-MOT-train/debug_vis/
+
