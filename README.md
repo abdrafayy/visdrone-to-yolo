@@ -54,3 +54,17 @@ VisDrone2019-MOT-train/
 git clone https://github.com/abdrafayy/visdrone-to-yolo.git
 cd visdrone-to-yolo
 
+pip install -r requirements.txt
+```
+🚀 How to Use
+🔄 Convert Annotations to YOLO
+
+Update the paths in convert_to_yolo.py if needed, then run:
+```
+python convert_to_yolo.py
+```
+YOLO-formatted .txt files will be saved under:
+
+VisDrone2019-MOT-train/yolo_labels/
+
+Each .txt corresponds to one image frame.
